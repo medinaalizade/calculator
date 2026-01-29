@@ -32,6 +32,4 @@ Perfect for practicing frontend skills while having fun! 💚</p>
 
 ## 📂 How to Use
 
-1. Clone the repository:  
-```bash
-git clone https://github.com/medinaalizade/calculator.git
+https://medinaalizade.github.io/calculator/
