@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cozy Calculator</title>
-    <link rel="stylesheet" href="./style.css"
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Zen+Dots&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div id="calculator_body">
+        <div id="calculator_screen"></div>
+
+        <div class="num_row" id="first_row">
+            <button class="btn op" id="left_br">(</button>
+            <button class="btn op" id="right_br">)</button>
+            <button class="btn op" id="percent">%</button>
+            <button class="btn op" id="delete">AC</button>
+        </div>
+        <div class="num_row" id="second_row">
+            <button class="btn num" id="seven">7</button>
+            <button class="btn num" id="eight">8</button>
+            <button class="btn num" id="nine">9</button>
+            <button class="btn op" id="divide">÷</button>
+        </div>
+        <div class="num_row" id="third_row">
+            <button class="btn num" id="four">4</button>
+            <button class="btn num" id="five">5</button>
+            <button class="btn num" id="six">6</button>
+            <button class="btn op" id="multiply">×</button>
+        </div>
+        <div class="num_row" id="forth_row">
+            <button class="btn num" id="one">1</button>
+            <button class="btn num" id="two">2</button>
+            <button class="btn num" id="three">3</button>
+            <button class="btn op" id="minus">-</button>
+        </div>
+        <div class="num_row" id="fifth_row">
+            <button class="btn num" id="zero">0</button>
+            <button class="btn op" id="point">.</button>
+            <button class="btn op" id="equal">=</button>
+            <button class="btn op" id="plus">+</button>
+        </div>
+    </div>
     
     <script src="./index.js"></script>
 </body>
