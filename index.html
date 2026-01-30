@@ -10,38 +10,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Zen+Dots&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <button id="mode_toggle">Advanced Mode</button>
+
     <div id="calculator_body">
         <div id="calculator_screen"></div>
 
-        <div class="num_row" id="first_row">
-            <button class="btn op" id="left_br">(</button>
-            <button class="btn op" id="right_br">)</button>
-            <button class="btn op" id="percent">%</button>
-            <button class="btn op" id="delete">AC</button>
+        <div class="sci_keys">
+            <button class="btn op" id="sin">sin</button>
+            <button class="btn op" id="cos">cos</button>
+            <button class="btn op" id="tan">tan</button>
+            <button class="btn op" id="log">log</button>
+            <button class="btn op" id="ln">ln</button>
+            <button class="btn op" id="sqrt">√</button>
+            <button class="btn op" id="square">x²</button>
+            <button class="btn op" id="power">x^y</button>
+            <button class="btn op" id="abs">|x|</button>
+            <button class="btn op" id="pi">π</button>
+            <button class="btn op" id="e">e</button>
+            <button class="btn op" id="fact">!</button>
         </div>
-        <div class="num_row" id="second_row">
-            <button class="btn num" id="seven">7</button>
-            <button class="btn num" id="eight">8</button>
-            <button class="btn num" id="nine">9</button>
-            <button class="btn op" id="divide">÷</button>
-        </div>
-        <div class="num_row" id="third_row">
-            <button class="btn num" id="four">4</button>
-            <button class="btn num" id="five">5</button>
-            <button class="btn num" id="six">6</button>
-            <button class="btn op" id="multiply">×</button>
-        </div>
-        <div class="num_row" id="forth_row">
-            <button class="btn num" id="one">1</button>
-            <button class="btn num" id="two">2</button>
-            <button class="btn num" id="three">3</button>
-            <button class="btn op" id="minus">-</button>
-        </div>
-        <div class="num_row" id="fifth_row">
-            <button class="btn num" id="zero">0</button>
-            <button class="btn op" id="point">.</button>
-            <button class="btn op" id="equal">=</button>
-            <button class="btn op" id="plus">+</button>
+
+        <div class="std_keys">
+            <div class="num_row">
+                <button class="btn op" id="left_br">(</button>
+                <button class="btn op" id="right_br">)</button>
+                <button class="btn op" id="backspace">DEL</button>
+                <button class="btn op" id="delete">AC</button>
+            </div>
+            <div class="num_row">
+                <button class="btn num" id="seven">7</button>
+                <button class="btn num" id="eight">8</button>
+                <button class="btn num" id="nine">9</button>
+                <button class="btn op" id="divide">÷</button>
+            </div>
+            <div class="num_row">
+                <button class="btn num" id="four">4</button>
+                <button class="btn num" id="five">5</button>
+                <button class="btn num" id="six">6</button>
+                <button class="btn op" id="multiply">×</button>
+            </div>
+            <div class="num_row">
+                <button class="btn num" id="one">1</button>
+                <button class="btn num" id="two">2</button>
+                <button class="btn num" id="three">3</button>
+                <button class="btn op" id="minus">-</button>
+            </div>
+            <div class="num_row">
+                <button class="btn num" id="zero">0</button>
+                <button class="btn op" id="point">.</button>
+                <button class="btn op" id="equal">=</button>
+                <button class="btn op" id="plus">+</button>
+            </div>
         </div>
     </div>
     
