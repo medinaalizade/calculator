@@ -125,5 +125,28 @@ button.btn:active { background: #ffe9e9; transform: translateY(0.75em); }
 button.btn:active::before { transform: translate3d(0, 0, -1em); box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2; }
 
 @media (max-width: 600px) {
+    #calculator_body {
+        width: 95%;
+        max-width: 400px; 
+        padding: 12px;
+        gap: 8px;
+    }
+
     #calculator_body.advanced { width: 95%; grid-template-columns: 1fr; }
+    .sci_keys {
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 8px;
+        margin-bottom: 5px;
+        border-bottom: 2px dashed #b18597; 
+        padding-bottom: 10px;
+    }
+    button.btn {
+        font-size: 18px;
+        padding: 0.6em 0;
+    }
+
+    #calculator_screen {
+        font-size: 24px;
+        min-height: 50px;
+    }
 }
